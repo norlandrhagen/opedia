@@ -1,0 +1,11 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - -c anaconda unixodbc
+  - -c anaconda freetds
+  - shapely
+  - fiona
+  - -c conda-forge geopandas
